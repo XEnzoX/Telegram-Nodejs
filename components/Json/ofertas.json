@@ -1,0 +1,18 @@
+{
+    "offertas_detalles" :[
+      {
+        "id": 1,
+        "product": "Fidelo Spaghetti",
+        "price": "$200",
+        "conten": "200gra",
+        "marca": "Marolio"
+      },
+      {
+        "id": 2,
+        "product": "Arroz integral",
+        "price": "$150",
+        "conten": "500gra",
+        "marca": "Luchetti"
+      }
+    ]
+}
