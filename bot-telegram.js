@@ -1,7 +1,7 @@
 const {Telegraf} = require('telegraf');
 const fs = require('fs');
 require('dotenv').config();
-
+const bot = "5691770242:AAFXkgii4t_QkoJxNQ8u41uWg67IYCwVcJc"
  
 const lista = require('./components/Json/deleteMs.json');
 
