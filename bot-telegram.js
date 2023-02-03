@@ -2,9 +2,9 @@ const {Telegraf} = require('telegraf');
 const fs = require('fs');
 require('dotenv').config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN); 
+ 
 const lista = require('./components/Json/deleteMs.json');
-// const miNumero = new Telegraf(process.env.MI_NUMERO)
+
 
 // Electronica
 const tiendaElectronica = fs.readFileSync('./components/Json/electronica.json');
@@ -198,7 +198,7 @@ bot.command(['peluqueria', 'peluquerias'],(ctx) =>{
 });
 
 bot.command(["ayuda", "help"], (ctx) =>{
-    ctx.reply(`Usar alguno de los siguietes comandos para interactuar con el bot: \n /electronica Para mostrar las tiendas de venta de cmponentes electronicos, \n /panificados Para mostrar las tiendas de panificados y pastelerias, \n /despensa Para mostrar las despensas y negocios, \n /belleza Para mostrar salones de belleza y estetica, \n /forrajeria Para mostrar los locales de venta de alimento para mascota y demas, \n /heladeria Para mosrar las heladerias, \n /peluqueria Para mosttrrar las peluquerias de niños y adultos. Esta prohibido el uso de malas palabras y envio de imagenes, videos y documentos, si alguno de estos es enviados seran eliminados. Si desea hacer conocer su Negocio, o ya se encuentra y desa pasar información adicional para ser colocada contactarse: ${process.env.MI_NUMERO}`);
+    ctx.reply(`Usar alguno de los siguietes comandos para interactuar con el bot: \n /electronica Para mostrar las tiendas de venta de cmponentes electronicos, \n /panificados Para mostrar las tiendas de panificados y pastelerias, \n /despensa Para mostrar las despensas y negocios, \n /belleza Para mostrar salones de belleza y estetica, \n /forrajeria Para mostrar los locales de venta de alimento para mascota y demas, \n /heladeria Para mosrar las heladerias, \n /peluqueria Para mosttrrar las peluquerias de niños y adultos. Esta prohibido el uso de malas palabras y envio de imagenes, videos y documentos, si alguno de estos es enviados seran eliminados. Si desea hacer conocer su Negocio, o ya se encuentra y desa pasar información adicional para ser colocada contactarse: ${numero}`);
 })
 
 bot.on('message', (ctx) =>{
