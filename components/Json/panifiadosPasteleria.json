@@ -2,10 +2,10 @@
  {
         "id": 1,
         "name": "La Artesana",
-        "location": "Manzana 44, Lote26 - G4300 - Los Naranjos - Santiago del Estero",
-        "gps": "https://maps.app.goo.gl/n3wtABLkZRoiCw4r6",
-        "longitude": "-27.7052357",
-        "latitude": "-64.2390664",
+        "location": "Argentina",
+        "gps": "https://maps.app.goo.gl/",
+        "longitude": "",
+        "latitude": "",
         "payment": "Efectivo",
         "timetable": "-"
  }
